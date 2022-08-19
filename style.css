@@ -1,0 +1,79 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  background-position: center;
+  background-size: cover;
+  margin: 0 30px;
+}
+.container {
+  margin-right: 90px;
+  margin-left: 90px;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 20vh;
+}
+nav .list {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .list-item {
+  margin-right: 40px;
+  list-style-type: none;
+}
+div.grow-list {
+  margin-right: 30%;
+}
+nav div img {
+  flex: 1;
+  height: 30px;
+  margin-left: 10px;
+}
+.nav-button {
+  border: 1px solid #5a20cb;
+  padding: 10px 20px;
+  border-radius: 8px;
+  background-color: #5a20cb;
+  color: #ffffff;
+  margin-right: 50px;
+  margin-top: 20px;
+  font-size: 15px;
+}
+div.banner-container {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 80vh;
+  align-items: flex-start;
+  margin-right: 50px;
+}
+h1 {
+  font-size: 50px;
+  color: #120e43;
+  /* text-align: center; */
+}
+h1 span {
+  color: #5a20cb;
+}
+p{
+  font-size: 18px;
+}
+/* div > img:last-child {
+  max-width: 90%;
+  max-height: 90%;
+  margin-right: 50%;
+} */
+img .illustration {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 70%;
+  overflow: hidden;
+}
