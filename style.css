@@ -65,15 +65,10 @@ h1 span {
 p{
   font-size: 18px;
 }
-/* div > img:last-child {
-  max-width: 90%;
-  max-height: 90%;
-  margin-right: 50%;
-} */
-img .illustration {
+div img .illustration {
   position: absolute;
   bottom: 0;
   right: 0;
-  height: 70%;
+  height: 50%;
   overflow: hidden;
 }
